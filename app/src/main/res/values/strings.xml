@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">TaskManager</string>
     <string name="hint_edit_text">Enter your name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="error_email_empty">Email cannot be empty</string>
+    <string name="error_email_invalid">Email is invalid</string>
+    <string name="error_password">Password length must be 8 characters</string>
+    <string name="guest">Guest</string>
 
 </resources>

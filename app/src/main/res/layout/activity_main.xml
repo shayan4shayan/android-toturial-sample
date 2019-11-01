@@ -1,133 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-    android:gravity="bottom"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".activities.MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="50dp"
-            android:autoLink="all"
-            android:id="@+id/textLink"
-            android:gravity="start"
-            android:paddingTop="60dp"
-            android:paddingBottom="60dp"
-            android:text="https://google.com shayan4shayan@gmail.com +989387868272"
-            android:textColor="#000"
-            android:textSize="14dp"
-            />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint_edit_text"
-            android:imeActionId="1"
-            android:id="@+id/editTextHint"
-            android:imeActionLabel="next"
-            android:imeOptions="actionSearch"
-            android:inputType="phone"
-            android:textAlignment="center"
-            android:textColor="@color/colorAccent"
-            android:textSize="50dp"
-            />
-
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
-                android:orientation="horizontal">
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Submit"
-                    android:id="@+id/button1"
-                    android:textSize="50dp" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Submit"
-                    android:background="@drawable/btn_background_2"
-                    android:enabled="true"
-                    android:textSize="50dp" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="@color/colorAccent"
-                    android:text="Submit"
-                    android:textSize="50dp" />
-            </LinearLayout>
-        </HorizontalScrollView>
 
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center|start"
-            android:text="hello"
-            android:textSize="50dp" />
-
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:checked="true"
-                android:text="selection1"
-                android:textSize="40dp" />
-
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="selection2"
-                android:textSize="40dp" />
-
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="selection3"
-                android:textSize="40dp" />
-        </RadioGroup>
-
-        <DatePicker
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:entries="@array/item" />
-
-        <ProgressBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
-
-
-</ScrollView>
+</LinearLayout>
