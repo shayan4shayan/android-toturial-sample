@@ -1,5 +1,6 @@
 package ir.shayan.taskmanager.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import ir.shayan.taskmanager.R
@@ -13,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         title = username()
+
+        startActivity(Intent(this,RecyclerActivity::class.java))
 
     }
 }
