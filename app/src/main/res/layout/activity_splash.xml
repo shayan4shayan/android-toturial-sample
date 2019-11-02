@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".activities.SplashActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="96dp"
+        android:src="@drawable/ic_icon"
+        android:transitionName="icon" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
