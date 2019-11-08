@@ -9,5 +9,12 @@
     <string name="error_password">Password length must be 8 characters</string>
     <string name="guest">Guest</string>
     <string name="test_icon">test icon</string>
+    <string name="title_new_task">New Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="hint_task_description">Task description</string>
+    <string name="add">Add</string>
+    <string name="error_field_empty">This filed cannot be Empty</string>
+    <string name="title_edit_task">Edit Task</string>
+    <string name="edit">Edit</string>
 
 </resources>
