@@ -6,4 +6,5 @@
     <color name="editTextHintColor">#C16C199E</color>
     <color name="transparent">#00000000</color>
     <color name="colorBlack">#000</color>
+    <color name="colorWhite">#fff</color>
 </resources>
