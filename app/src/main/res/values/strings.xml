@@ -16,5 +16,7 @@
     <string name="error_field_empty">This filed cannot be Empty</string>
     <string name="title_edit_task">Edit Task</string>
     <string name="edit">Edit</string>
+    <string name="google_client_id" translatable="false">393132685355-gbk4d761dvgh1ugh246eofdqfvpv421r.apps.googleusercontent.com</string>
+    <string name="error_google_login">google login failed</string>
 
 </resources>
